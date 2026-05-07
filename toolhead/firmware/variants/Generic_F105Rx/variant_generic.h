@@ -108,10 +108,6 @@
 #define NUM_DIGITAL_PINS        51
 #define NUM_ANALOG_INPUTS       16
 
-#ifndef PNUM_NOT_DEFINED
-	#define PNUM_NOT_DEFINED NUM_DIGITAL_PINS
-#ifndef
-
 // On-board LED pin number
 #ifndef LED_BUILTIN
   #define LED_BUILTIN           PNUM_NOT_DEFINED
