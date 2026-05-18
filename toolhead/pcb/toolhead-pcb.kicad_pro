@@ -677,7 +677,11 @@
         "uuid": "00000000-0000-0000-0000-000000000000"
       }
     ],
+<<<<<<< HEAD
     "used_designators": "",
+=======
+    "used_designators": "U7",
+>>>>>>> 3abca72cb1aa715aa9f9f101da244371be92d0be
     "variants": []
   },
   "sheets": [

@@ -9,9 +9,13 @@ cp twibus.cpp Marlin/Marlin/src/feature/twibus.cpp
 cp twibus.h Marlin/Marlin/src/feature/twibus.h
 cp variant.h Marlin/buildroot/share/PlatformIO/variants/MARLIN_F103Rx/variant.h
 cp stm32f1.ini Marlin/ini/stm32f1.ini
+cp M260_M261.cpp Marlin/Marlin/src/gcode/feature/i2c/M260_M261.cpp
 
 # Enter Marlin repository and compile
+<<<<<<< HEAD
 //source venv/bin/activate
+=======
+>>>>>>> 3abca72cb1aa715aa9f9f101da244371be92d0be
 cd Marlin
 platformio run --target clean
 platformio run
