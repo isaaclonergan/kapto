@@ -33,9 +33,9 @@ static const char *TAG = "uvc_cam";
 #define CAM_PIN_PCLK 13
 
 // Resolution and buffer sizes (match descriptors!)
-#define FRAME_WIDTH 1280
-#define FRAME_HEIGHT 720
-#define FRAME_RATE 30
+#define FRAME_WIDTH 640
+#define FRAME_HEIGHT 480
+#define FRAME_RATE 10
 #define UVC_BUF_SIZE (400 * 1024) // 64KB, should be > max JPEG size
 
 // XCLK: many modules prefer 20 MHz; try 20MHz first

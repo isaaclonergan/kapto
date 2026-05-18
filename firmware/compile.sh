@@ -11,7 +11,7 @@ cp variant.h Marlin/buildroot/share/PlatformIO/variants/MARLIN_F103Rx/variant.h
 cp stm32f1.ini Marlin/ini/stm32f1.ini
 
 # Enter Marlin repository and compile
-source venv/bin/activate
+//source venv/bin/activate
 cd Marlin
 platformio run --target clean
 platformio run

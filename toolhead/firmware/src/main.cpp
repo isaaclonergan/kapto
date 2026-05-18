@@ -1,9 +1,16 @@
 #include <Arduino.h>
-
 void setup() {
-  // put your setup code here
+  pinMode(PB6, OUTPUT);
+  pinMode(PB7, OUTPUT);
 }
 
 void loop() {
-  // put your main code here
+  // Turn both ON
+  digitalWrite(PB6, HIGH);
+  digitalWrite(PB7, HIGH);
+  delay(500);
+
+  // Turn both OFF
+  digitalWrite(PB7, LOW);
+  delay(500);
 }
